@@ -7,7 +7,8 @@ body {
 .profile_picture{
     width: 250px;
     border-radius: 50%;
-    margin-bottom: 65px
+    margin-bottom: 65px;
+    margin-top:80px;
 }
 #home {
     position:absolute;
@@ -71,4 +72,7 @@ p {
     background-color:palegreen;
     color:darkblue;
     font-weight:bold;
+}
+html {
+    scroll-behavior: smooth;
 }
